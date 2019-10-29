@@ -18,7 +18,6 @@ $fp = fopen('php://output', 'w');
 fputs( $fp, "\xEF\xBB\xBF" );
 
 ?>
-T
 
 <?php
 if ($opr == "all_opr") {
