@@ -8,7 +8,7 @@ header('Content-type: application/csv; charset=UTF-8');
 header('Content-Disposition: attachment; filename='.$filename);
 $fp = fopen('php://output', 'w');
     
-    $header = array("กลุ่มซิม",
+    $header = array("กลุ่มซิม 5",
      "หมายเลขซิม", 
      "ค่าแพคเกจ" , 
      "ยอดรวมค่าใช้จ่าย" ,
