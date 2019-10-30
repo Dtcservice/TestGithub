@@ -7,6 +7,7 @@ header('Content-Encoding: UTF-8');
 header('Content-type: application/csv; charset=UTF-8');
 header('Content-Disposition: attachment; filename='.$filename);
 $fp = fopen('php://output', 'w');
+t
     
     $header = array("กลุ่มซิม",
      "หมายเลขซิม", 
